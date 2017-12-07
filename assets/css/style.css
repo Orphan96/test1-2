@@ -1,0 +1,112 @@
+html, body { font-size: 100%; background: #fff; font-family: 'Lato', sans-serif; width: 100%; }
+
+body a { transition: 0.5s all ease; -webkit-transition: 0.5s all ease; -moz-transition: 0.5s all ease; -o-transition: 0.5s all ease; -ms-transition: 0.5s all ease; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+p { margin: 0; }
+
+img { max-width: 100%; height: auto; }
+
+ul, label { margin: 0; padding: 0; }
+
+body a:hover { text-decoration: none; }
+
+.carousel { position: relative; width: 100%; z-index: 0; padding: 0px; margin: 0px; }
+
+.carousel-inner .main { min-height: 400px; }
+
+.carousel-caption { margin-bottom: 6%; padding-bottom: 30px; }
+.carousel-caption hr { width: 30%; background-color: #00e0d0; }
+.carousel-caption p { padding-bottom: 40px; }
+.carousel-caption img { height: 75px; }
+
+.navbar { position: absolute; top: 0; }
+
+.navbar-header a { font-size: 20px; color: #00e0d0; }
+
+.navbar-brand { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; color: white; }
+.navbar-brand a:hover { color: #00e0d0; background: transparent; }
+.navbar-brand img { height: 46px; }
+
+.navbar-right li a { color: white; }
+.navbar-right li a:hover { color: #00e0d0; background: transparent; }
+
+.we { z-index: 10; color: white; position: relative; text-align: center; width: 60%; margin: auto; }
+
+.butt a { display: block; color: #00e0d0; border: 2px double #00e0d0; text-align: center; margin: auto; height: 40px; border-radius: 2px; width: 30%; margin-bottom: 30px; padding-top: 5px; margin-top: 20px; }
+.butt a:hover { color: #00e0d0; background: transparent; }
+
+.story { margin-top: 10%; }
+.story .storytext { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.story .storytext p { padding: 20px; }
+.story .video { color: white; display: -webkit-box; display: -ms-flexbox; display: flex; background-image: url("../images/video.jpg"); height: 550px; width: 100%; margin-top: 70px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-line-pack: center; align-content: center; }
+.story .video a { display: block; text-align: center; margin: auto; width: 60px; height: 60px; padding: auto; color: #00e0d0; border: 2px solid white; border-radius: 50%; margin-bottom: 20px; }
+.story .video .play { padding: 20px; margin: auto; }
+.story .video .wrapper { margin: auto; }
+
+.expertise { padding-top: 70px; padding-bottom: 70px; text-align: center; }
+.expertise h1 { padding-bottom: 20px; }
+.expertise hr { width: 20%; }
+.expertise .part { width: 30%; margin: 10px; }
+.expertise .part h3 { font-size: 14px; font-weight: bold; padding-top: 15px; }
+.expertise .part p { font-size: 14px; width: 60%; margin: auto; padding-top: 15px; }
+
+.team { color: white; background-image: url("../images/pine.jpg"); padding-top: 70px; text-align: center; padding-bottom: 50px; }
+.team h1 { padding-bottom: 20px; }
+.team hr { width: 20%; }
+.team .part { width: 25%; margin: 0px; }
+.team .part h3 { font-size: 14px; font-weight: bold; padding-top: 15px; }
+.team .part p { font-size: 14px; width: 60%; margin: auto; padding-top: 15px; }
+.team .hire { padding-top: 30px; }
+
+.work { padding-top: 70px; padding-bottom: 70px; text-align: center; }
+.work h1 { padding-bottom: 20px; }
+.work p { float: right; }
+.work .part { padding: 0px; }
+.work img { height: 200px; padding: 0px; margin: 0px; }
+
+.about .carousel { position: relative; }
+.about .carousel-inner img { width: auto; }
+.about .carousel-caption .photo img { height: 75px; }
+.about .carousel-caption img { padding-bottom: 20px; width: 50px; height: 50px; }
+.about .carousel-caption p { padding: 20px; }
+.about .carousel-caption .cite { font-size: 100px; }
+
+.contact { margin-top: 60px; }
+.contact .pfblock-title { padding-bottom: 20px; }
+.contact .form { position: absolute; }
+.contact button { display: block; color: #00e0d0; border: 2px double #00e0d0; text-align: center; margin: auto; height: 40px; width: 20%; margin-top: 0px; padding-top: 10px; background: transparent; float: left; border-radius: 4px; }
+.contact .clients { float: right; }
+.contact .client .more { margin-bottom: 25px; margin-top: 25px; }
+.contact .client img { padding: 15px; }
+
+footer { background-image: url("../images/footer.jpg"); margin-top: 200px; color: white; }
+footer p { padding-top: 15px; padding-bottom: 15px; }
+footer .butt a { width: auto; border-color: grey; color: grey; }
+footer .social { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; padding-top: 10px; }
+footer .social h2 { font-size: 14px; }
+footer .social a { display: block; text-align: center; margin: auto; width: 40px; height: 40px; padding: auto; color: #00e0d0; border: 2px solid white; border-radius: 50%; margin-bottom: 20px; }
+footer .social img { margin: auto; padding-top: 10px; }
+footer .last { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; color: grey; }
+footer .last a { color: white; font-size: 12px; padding-top: 15px; }
+footer .last p { float: right; }
+
+.photo img { height: 75px; }
+
+@media (max-width: 970px) { .contact .nike { display: none; }
+  .clients { display: none; }
+  h1 { font-size: 24px; }
+  p { font-size: 14px; }
+  .carousel-caption { margin-bottom: 1%; padding-bottom: 30px; }
+  .butt a { width: 100px; } }
+@media (max-width: 750px) { h1 { font-size: 14px; }
+  p { font-size: 12px; }
+  .carousel-caption { margin-bottom: 0px; padding-bottom: 0px; }
+  .carousel-inner { min-height: 400px; }
+  .carousel-inner img { height: auto; }
+  .expertise .part { width: 80%; margin: auto; }
+  .expertise .part h3 { font-size: 14px; font-weight: bold; padding-top: 15px; }
+  .expertise .part p { font-size: 14px; width: 80%; }
+  .contact .nike { display: none; } }
+/*# sourceMappingURL=style.css.map */
